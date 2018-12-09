@@ -28,11 +28,13 @@ section {
 img {
   display: block;
   width: 100%;
+  height: 100%;
 }
 
 section .photo {
   display: flex;
   width: 100%;
+  height: 100%;
 }
 
 section .photo:nth-child(2), .photo:last-child {
@@ -44,6 +46,7 @@ section .photo:nth-child(2), .photo:last-child {
   section .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:last-child {
     display: flex;
     width: 50%;
+    height: 50%;
   }
 
 }
@@ -53,6 +56,7 @@ section .photo:nth-child(2), .photo:last-child {
   section .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4) {
     display: flex;
     width: 33.3333%;
+    height: 33.333%;
   }
 
   .photo:last-child {
@@ -65,11 +69,13 @@ section .photo:nth-child(2), .photo:last-child {
 
   .photo:first-child {
     width: 66.6666%;
+    height: 66.6666%;
   }
 
   section .photo:nth-child(2), .photo:nth-child(3), .photo:nth-child(4), .photo:last-child {
     display: flex;
     width: 33.3333%;
+    height: 33.333%;
   }
 
 }
